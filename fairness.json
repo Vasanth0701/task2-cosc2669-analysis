@@ -1,0 +1,395 @@
+{
+ "model1": {
+  "oof_accuracy": 0.8984207447845584,
+  "oof_auc": 0.9566052131436887,
+  "raw_7_markets_artefact": {
+   "eo_diff": 0.9463759575721862,
+   "fpr_gap": 0.9463759575721862,
+   "canada_n": 384,
+   "canada_loss_rows": 7
+  },
+  "Market": {
+   "dp_diff": 0.14010936542815833,
+   "eo_diff": 0.15251465549723542,
+   "tpr_gap": 0.15251465549723542,
+   "fpr_gap": 0.14101567637710713,
+   "sel_gap": 0.14010936542815833,
+   "eo_ci": [
+    0.1453453681420872,
+    0.1623445542258432
+   ],
+   "dp_ci": [
+    0.1248961333923626,
+    0.15465520067765318
+   ],
+   "by_group": [
+    {
+     "Market": "APAC",
+     "n": 11002.0,
+     "base_rate": 0.6973,
+     "selection_rate": 0.644,
+     "tpr": 0.8466,
+     "fpr": 0.1772,
+     "accuracy": 0.8394
+    },
+    {
+     "Market": "Africa",
+     "n": 4587.0,
+     "base_rate": 0.7571,
+     "selection_rate": 0.7744,
+     "tpr": 0.9968,
+     "fpr": 0.0808,
+     "accuracy": 0.978
+    },
+    {
+     "Market": "EMEA",
+     "n": 5029.0,
+     "base_rate": 0.6626,
+     "selection_rate": 0.6801,
+     "tpr": 0.9991,
+     "fpr": 0.0536,
+     "accuracy": 0.9813
+    },
+    {
+     "Market": "EU",
+     "n": 10000.0,
+     "base_rate": 0.7724,
+     "selection_rate": 0.7472,
+     "tpr": 0.91,
+     "fpr": 0.1946,
+     "accuracy": 0.8862
+    },
+    {
+     "Market": "LATAM",
+     "n": 10294.0,
+     "base_rate": 0.7229,
+     "selection_rate": 0.6343,
+     "tpr": 0.8562,
+     "fpr": 0.055,
+     "accuracy": 0.8808
+    },
+    {
+     "Market": "US+Canada",
+     "n": 10378.0,
+     "base_rate": 0.8128,
+     "selection_rate": 0.7512,
+     "tpr": 0.9098,
+     "fpr": 0.0628,
+     "accuracy": 0.9149
+    }
+   ]
+  },
+  "Segment": {
+   "dp_diff": 0.005801072751931646,
+   "eo_diff": 0.015565516087749698,
+   "tpr_gap": 0.005378593583901137,
+   "fpr_gap": 0.015565516087749698,
+   "sel_gap": 0.005801072751931646,
+   "eo_ci": [
+    0.006507207426326916,
+    0.03117841832372814
+   ],
+   "dp_ci": [
+    0.001682713470154948,
+    0.016801670190052864
+   ],
+   "by_group": [
+    {
+     "Segment": "Consumer",
+     "n": 26518.0,
+     "base_rate": 0.741,
+     "selection_rate": 0.6968,
+     "tpr": 0.9004,
+     "fpr": 0.1143,
+     "accuracy": 0.8966
+    },
+    {
+     "Segment": "Corporate",
+     "n": 15429.0,
+     "base_rate": 0.7422,
+     "selection_rate": 0.7026,
+     "tpr": 0.9058,
+     "fpr": 0.1174,
+     "accuracy": 0.8998
+    },
+    {
+     "Segment": "Home Office",
+     "n": 9343.0,
+     "base_rate": 0.7468,
+     "selection_rate": 0.6997,
+     "tpr": 0.9024,
+     "fpr": 0.1019,
+     "accuracy": 0.9013
+    }
+   ]
+  },
+  "Market_without_geo_features": {
+   "dp_diff": 0.1288371023450282,
+   "eo_diff": 0.2016483653050509,
+   "tpr_gap": 0.14808295581006126,
+   "fpr_gap": 0.2016483653050509,
+   "sel_gap": 0.1288371023450282,
+   "eo_ci": [
+    0.17972513884240743,
+    0.22202655978329122
+   ],
+   "accuracy": 0.9025736010918307,
+   "auc": 0.9534665871081869,
+   "by_group": [
+    {
+     "Market": "APAC",
+     "n": 11002.0,
+     "base_rate": 0.6973,
+     "selection_rate": 0.6541,
+     "tpr": 0.851,
+     "fpr": 0.2003,
+     "accuracy": 0.8355
+    },
+    {
+     "Market": "Africa",
+     "n": 4587.0,
+     "base_rate": 0.7571,
+     "selection_rate": 0.7744,
+     "tpr": 0.9968,
+     "fpr": 0.0808,
+     "accuracy": 0.978
+    },
+    {
+     "Market": "EMEA",
+     "n": 5029.0,
+     "base_rate": 0.6626,
+     "selection_rate": 0.6801,
+     "tpr": 0.9991,
+     "fpr": 0.0536,
+     "accuracy": 0.9813
+    },
+    {
+     "Market": "EU",
+     "n": 10000.0,
+     "base_rate": 0.7724,
+     "selection_rate": 0.7829,
+     "tpr": 0.9384,
+     "fpr": 0.2553,
+     "accuracy": 0.8943
+    },
+    {
+     "Market": "LATAM",
+     "n": 10294.0,
+     "base_rate": 0.7229,
+     "selection_rate": 0.6732,
+     "tpr": 0.8895,
+     "fpr": 0.1087,
+     "accuracy": 0.89
+    },
+    {
+     "Market": "US+Canada",
+     "n": 10378.0,
+     "base_rate": 0.8128,
+     "selection_rate": 0.7722,
+     "tpr": 0.9274,
+     "fpr": 0.0983,
+     "accuracy": 0.9226
+    }
+   ]
+  },
+  "market_region_importance": 0.011027803855087418,
+  "market_discount_profile": [
+   {
+    "Market": "APAC",
+    "mean_discount": 0.1488,
+    "share_discounted": 0.5739,
+    "loss_rate": 0.3027
+   },
+   {
+    "Market": "Africa",
+    "mean_discount": 0.1567,
+    "share_discounted": 0.2302,
+    "loss_rate": 0.2429
+   },
+   {
+    "Market": "EMEA",
+    "mean_discount": 0.1961,
+    "share_discounted": 0.3199,
+    "loss_rate": 0.3374
+   },
+   {
+    "Market": "EU",
+    "mean_discount": 0.1031,
+    "share_discounted": 0.3866,
+    "loss_rate": 0.2276
+   },
+   {
+    "Market": "LATAM",
+    "mean_discount": 0.1355,
+    "share_discounted": 0.4119,
+    "loss_rate": 0.2771
+   },
+   {
+    "Market": "US+Canada",
+    "mean_discount": 0.1504,
+    "share_discounted": 0.5007,
+    "loss_rate": 0.1872
+   }
+  ],
+  "mitigation": {
+   "before": {
+    "acc": 0.8958122124307885,
+    "f1": 0.9276037715400455,
+    "loss_recall": 0.8864668483197093,
+    "eo_diff": 0.1724659606656581,
+    "dp_diff": 0.14933454114695843,
+    "tpr_gap": 0.1724659606656581
+   },
+   "true_positive_rate_parity": {
+    "acc": 0.9082897917803946,
+    "f1": 0.9387755102040817,
+    "loss_recall": 0.7965485921889192,
+    "eo_diff": 0.26242158092848183,
+    "dp_diff": 0.16349328637464222,
+    "tpr_gap": 0.00911115281350805
+   },
+   "equalized_odds": {
+    "acc": 0.8820868751462216,
+    "f1": 0.9233576642335767,
+    "loss_recall": 0.6669694217378141,
+    "eo_diff": 0.020893835567445396,
+    "dp_diff": 0.10241030156284392,
+    "tpr_gap": 0.012322141143867982
+   }
+  }
+ },
+ "model2": {
+  "oof_accuracy": 0.8923467035500231,
+  "oof_auc": 0.9288424297458142,
+  "n_uk": 3920,
+  "n_nonuk": 418,
+  "UK_vs_NonUK": {
+   "dp_diff": 0.007794648960062489,
+   "eo_diff": 0.1449830289769699,
+   "tpr_gap": 0.1449830289769699,
+   "fpr_gap": 0.04806647975549999,
+   "sel_gap": 0.007794648960062489,
+   "eo_ci": [
+    0.06257684891107078,
+    0.22887774521677748
+   ],
+   "dp_ci": [
+    0.0007497926906976636,
+    0.05283074349294477
+   ],
+   "tpr_gap_ci": [
+    0.06584608294310365,
+    0.22326020224998788
+   ],
+   "by_group": [
+    {
+     "sensitive_feature_0": "Non-UK",
+     "n": 418.0,
+     "base_rate": 0.366,
+     "selection_rate": 0.244,
+     "tpr": 0.634,
+     "fpr": 0.0189,
+     "accuracy": 0.8541
+    },
+    {
+     "sensitive_feature_0": "UK",
+     "n": 3920.0,
+     "base_rate": 0.2378,
+     "selection_rate": 0.2362,
+     "tpr": 0.779,
+     "fpr": 0.0669,
+     "accuracy": 0.8964
+    }
+   ]
+  },
+  "top_countries": [
+   {
+    "Country": "United Kingdom",
+    "n": 3920,
+    "base_rate": 0.238,
+    "selection_rate": 0.236
+   },
+   {
+    "Country": "Germany",
+    "n": 94,
+    "base_rate": 0.415,
+    "selection_rate": 0.277
+   },
+   {
+    "Country": "France",
+    "n": 87,
+    "base_rate": 0.333,
+    "selection_rate": 0.299
+   },
+   {
+    "Country": "Spain",
+    "n": 29,
+    "base_rate": 0.276,
+    "selection_rate": 0.207
+   },
+   {
+    "Country": "Belgium",
+    "n": 24,
+    "base_rate": 0.458,
+    "selection_rate": 0.333
+   },
+   {
+    "Country": "Switzerland",
+    "n": 20,
+    "base_rate": 0.45,
+    "selection_rate": 0.25
+   },
+   {
+    "Country": "Portugal",
+    "n": 19,
+    "base_rate": 0.368,
+    "selection_rate": 0.211
+   },
+   {
+    "Country": "Italy",
+    "n": 14,
+    "base_rate": 0.357,
+    "selection_rate": 0.214
+   }
+  ],
+  "median_monetary_by_group": {
+   "Non-UK": 1032.0,
+   "UK": 652.3
+  },
+  "mitigation": {
+   "before": {
+    "acc": 0.8923467035500231,
+    "f1": 0.7789872219592996,
+    "tpr_uk": 0.778969957081545,
+    "tpr_nonuk": 0.6339869281045751,
+    "fpr_uk": 0.06693440428380187,
+    "fpr_nonuk": 0.018867924528301886,
+    "sel_uk": 0.23622448979591837,
+    "sel_nonuk": 0.24401913875598086,
+    "tpr_gap": 0.1449830289769699
+   },
+   "true_positive_rate_parity": {
+    "acc": 0.8934993084370678,
+    "f1": 0.7861111111111111,
+    "tpr_uk": 0.7843347639484979,
+    "tpr_nonuk": 0.7712418300653595,
+    "fpr_uk": 0.06961178045515395,
+    "fpr_nonuk": 0.06792452830188679,
+    "sel_uk": 0.23954081632653063,
+    "sel_nonuk": 0.3253588516746411,
+    "tpr_gap": 0.013092933883138369
+   },
+   "equalized_odds": {
+    "acc": 0.892807745504841,
+    "f1": 0.783620288506282,
+    "tpr_uk": 0.7778969957081545,
+    "tpr_nonuk": 0.7647058823529411,
+    "fpr_uk": 0.0679384203480589,
+    "fpr_nonuk": 0.07169811320754717,
+    "sel_uk": 0.23673469387755103,
+    "sel_nonuk": 0.3253588516746411,
+    "tpr_gap": 0.01319111335521339
+   }
+  }
+ }
+}

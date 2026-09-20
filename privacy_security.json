@@ -1,0 +1,32 @@
+{
+ "model1": {
+  "train_acc": 0.9014999870018457,
+  "test_acc": 0.8958122124307885,
+  "mia_auc_loss": 0.5042412597815807,
+  "evasion_flip_rate_of_correctly_flagged_loss_makers": {
+   "discount_minus_0.05": 0.03381147540983607,
+   "discount_minus_0.10": 0.09596994535519125,
+   "discount_set_to_0": 1.0
+  },
+  "n_correctly_flagged_loss_makers": 2928,
+  "discount_thresholds_used": [
+   0.036,
+   0.125,
+   0.201,
+   0.285,
+   0.385,
+   0.401,
+   0.46,
+   0.485
+  ]
+ },
+ "model2": {
+  "train_acc": 1.0,
+  "test_acc": 0.8838709677419355,
+  "mia_auc_loss": 0.7013824884792627,
+  "mia_auc_nn_distance": 1.0,
+  "share_members_with_zero_distance": 1.0,
+  "share_nonmembers_with_zero_distance": 0.0,
+  "share_unique_feature_vectors": 1.0
+ }
+}
